@@ -89,4 +89,7 @@ app.post("/login", (req, res)=> {
     }) 
     
 app.listen(port, 
-    ()=> console.log(`Server Started on port ${port}...`))
+    ()=> console.log(`Server Started on port ${port}...`)
+         console.log(`DB_HOST ${DB_HOST}...`)
+         console.log(`DB_HOST...`)
+          )
